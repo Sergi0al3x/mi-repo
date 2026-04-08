@@ -1,0 +1,7 @@
+requirements.txt 
+# streamlit
+# pyzbar
+# Pillow
+# opencv-python-headless
+# google-genai
+# libzbar0  ← en Linux se instala vía packages.txt
