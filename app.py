@@ -89,7 +89,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── API Key (se guarda en secrets de Streamlit en producción) ─
-GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY", "AIzaSyD5lxk3w6OAGxgr3MFQTNaiieVjy1BRwZ8")
+GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY", "")
 client         = genai.Client(api_key=GEMINI_API_KEY)
 GEMINI_MODEL   = "gemini-2.0-flash"
 MAX_WORKERS    = 5
